@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/apel_soal.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_btn.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_half_white.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_primary_grad.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_primary_ligth.xml" value="0.2483108108108108" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_red_ligth.xml" value="0.2483108108108108" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/buah_soal.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/gaun_opsi.xml" value="0.22135416666666666" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/gaun_small.xml" value="0.22135416666666666" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/hospital_soal.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2483108108108108" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/ic_competence_med.xml" value="0.2483108108108108" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/ic_competence_small.xml" value="0.2483108108108108" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/ic_introduction_med.xml" value="0.2483108108108108" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/ic_introduction_small.xml" value="0.2483108108108108" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/ic_lap_labarugi_small.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/ic_material_small.xml" value="0.2483108108108108" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/roti_soal.xml" value="0.22135416666666666" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/sepatu_opsi.xml" value="0.22135416666666666" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/supermarket_soal.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/susu_soal.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/tas_opsi.xml" value="0.22135416666666666" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_competence.xml" value="0.23783783783783785" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_introduction.xml" value="0.23783783783783785" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_materi1.xml" value="0.1" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_materiel.xml" value="0.2287162162162162" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_objektif.xml" value="0.36666666666666664" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_quiz_materi1.xml" value="0.25" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_result_quiz.xml" value="0.22" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/dialog_box_benar.xml" value="0.36666666666666664" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/dialog_box_salah.xml" value="0.36666666666666664" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/dialog_box_salah_ulang.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

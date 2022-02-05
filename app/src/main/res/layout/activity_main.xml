@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        android:background="@drawable/doodle"
+        android:paddingStart="30dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry,UnusedAttribute">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/merah_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Français Fun"
+            android:textSize="30sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:paddingBottom="60dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_half_white"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:paddingStart="30dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnIntro"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_weight="1"
+                android:paddingHorizontal="8dp"
+                android:layout_marginHorizontal="4dp"
+                android:text="@string/introduction"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/white"
+                android:drawableBottom="@drawable/ic_introduction_small"
+                android:background="@drawable/bg_primary_grad"/>
+            <Button
+                android:id="@+id/btnObjektif"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_weight="1"
+                android:paddingHorizontal="8dp"
+                android:layout_marginHorizontal="4dp"
+                android:text="@string/objektif"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/white"
+                android:drawableBottom="@drawable/ic_objektif_small"
+                android:background="@drawable/bg_primary_grad"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/ViewIntro"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:paddingHorizontal="16dp"
+            android:layout_marginVertical="10dp"
+            android:text="@string/materiel"
+            android:textSize="23dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_material_small"
+            android:background="@drawable/bg_primary_grad"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

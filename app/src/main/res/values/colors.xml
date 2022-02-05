@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_light">#CFDCFF</color>
+    <color name="primary_med">#8794B8</color>
+    <color name="primary">#213E8D</color>
+    <color name="primary_dark">#18337C</color>
+    <color name="merah">#E13B32</color>
+    <color name="merah_2">#F26A7F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#E1E5ED</color>
+    <color name="red">#F1372A</color>
+</resources>
