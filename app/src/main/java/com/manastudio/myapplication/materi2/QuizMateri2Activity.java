@@ -1,4 +1,4 @@
-package com.manastudio.myapplication.materi1;
+package com.manastudio.myapplication.materi2;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,11 +19,12 @@ import android.widget.Toast;
 
 import com.manastudio.myapplication.R;
 import com.manastudio.myapplication.ResultQuizActivity;
+import com.manastudio.myapplication.materi2.SoalQuizHelper2;
 
 import java.util.Objects;
 
-public class QuizMateri1Activity extends AppCompatActivity implements View.OnClickListener {
-    private SoalQuizHelper1 quizHelper = new SoalQuizHelper1();
+public class QuizMateri2Activity extends AppCompatActivity implements View.OnClickListener {
+    private SoalQuizHelper2 quizHelper = new SoalQuizHelper2();
     private TextView tvQuestion, tvScore;
     private Button btn_a, btn_b, btn_c, DialogButton;
     private String mAnswer;
@@ -71,50 +72,22 @@ public class QuizMateri1Activity extends AppCompatActivity implements View.OnCli
             questionNumber++;
             getSupportActionBar().setTitle("Soal "+questionNumber+" dari 10");
             switch (questionNumber) {
-                case 1:
-                    ivQuestion.setImageResource(R.drawable.gaun_soal);
-                    break;
+
                 case 2:
-                    ivQuestion.setImageResource(0);
-                    btn_a.setTextColor(Color.argb(0,0,0,0));
-                    btn_b.setTextColor(Color.argb(0,0,0,0));
-                    btn_c.setTextColor(Color.argb(0,0,0,0));
-                    btn_a.setBackgroundResource(R.drawable.tas_opsi);
-                    btn_b.setBackgroundResource(R.drawable.sepatu_opsi);
-                    btn_c.setBackgroundResource(R.drawable.gaun_opsi);
-                    break;
                 case 3:
-                    ivQuestion.setImageResource(0);
-                    btn_a.setTextColor(Color.argb(0,0,0,0));
-                    btn_b.setTextColor(Color.argb(0,0,0,0));
-                    btn_c.setTextColor(Color.argb(0,0,0,0));
-                    btn_a.setBackgroundResource(R.drawable.gaun_opsi);
-                    btn_b.setBackgroundResource(R.drawable.tas_opsi);
-                    btn_c.setBackgroundResource(R.drawable.sepatu_opsi);
+                    ivQuestion.setImageResource(R.drawable.blonde_soal);
                     break;
                 case 4:
-                    ivQuestion.setImageResource(R.drawable.roti_soal);
-                    btn_a.setBackgroundResource(R.color.primary_light);
-                    btn_b.setBackgroundResource(R.color.primary_light);
-                    btn_c.setBackgroundResource(R.color.primary_light);
-                    btn_a.setTextColor(R.color.primary);
-                    btn_b.setTextColor(R.color.primary);
-                    btn_c.setTextColor(R.color.primary);
+                    ivQuestion.setImageResource(R.drawable.hidung_soal);
                     break;
                 case 5:
-                    ivQuestion.setImageResource(R.drawable.buah_soal);
+                    ivQuestion.setImageResource(R.drawable.slim_soal);
                     break;
                 case 6:
-                    ivQuestion.setImageResource(R.drawable.apel_soal);
+                    ivQuestion.setImageResource(R.drawable.mata_soal);
                     break;
-                case 7:
-                    ivQuestion.setImageResource(R.drawable.susu_soal);
-                    break;
-                case 8:
-                    ivQuestion.setImageResource(R.drawable.hospital_soal);
-                    break;
-                case 10:
-                    ivQuestion.setImageResource(R.drawable.supermarket_soal);
+                case 9:
+                    ivQuestion.setImageResource(R.drawable.kaya_soal);
                     break;
 
                 default: ivQuestion.setImageResource(0);
@@ -128,7 +101,7 @@ public class QuizMateri1Activity extends AppCompatActivity implements View.OnCli
             }
 
         } else {
-            Intent intentResult = new Intent(QuizMateri1Activity.this, ResultQuizActivity.class);
+            Intent intentResult = new Intent(QuizMateri2Activity.this, ResultQuizActivity.class);
             intentResult.putExtra("score", score);
             startActivity(intentResult);
             finish();
@@ -183,7 +156,7 @@ public class QuizMateri1Activity extends AppCompatActivity implements View.OnCli
     }
 
     private void salah() {
-        dialog = new Dialog(QuizMateri1Activity.this);
+        dialog = new Dialog(QuizMateri2Activity.this);
         //Memasang Title / Judul pada Custom Dialog
         dialog.setTitle("Contoh Custom Dialog");
         salah.start();
@@ -208,7 +181,7 @@ public class QuizMateri1Activity extends AppCompatActivity implements View.OnCli
         score = score + 10;
         updateScore(score);
 
-        dialog = new Dialog(QuizMateri1Activity.this);
+        dialog = new Dialog(QuizMateri2Activity.this);
         benar.start();
         //Memasang Title / Judul pada Custom Dialog
         dialog.setTitle("Contoh Custom Dialog");

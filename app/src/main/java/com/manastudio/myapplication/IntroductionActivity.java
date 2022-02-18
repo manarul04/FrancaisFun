@@ -19,7 +19,7 @@ import java.util.Objects;
 
 public class IntroductionActivity extends AppCompatActivity implements View.OnClickListener {
 ImageButton btnBack;
-TextView tvIntro;
+TextView tvIntro,tvMateri;
 CardView txLintro,txLobjek,txLmateriel;
 CardView btnLintro, btnLobjek, btnLmateriel;
 ImageView arrowLintro,arrowLobjek,arrowLmateriel;
@@ -53,6 +53,9 @@ ImageView arrowLintro,arrowLobjek,arrowLmateriel;
         Spanned sp = Html.fromHtml( getString(R.string.l_introduction));
         tvIntro = findViewById(R.id.tvLintro);
         tvIntro.setText(sp);
+        Spanned sp2 = Html.fromHtml( getString(R.string.l_materiel));
+        tvMateri = findViewById(R.id.tvLmateriel);
+        tvMateri.setText(sp2);
         //cardview
         txLintro = findViewById(R.id.textLintro);
         txLintro.setOnClickListener(this);

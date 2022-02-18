@@ -1,57 +1,66 @@
 <resources>
     <string name="app_name">Français Fun</string>
-    <string name="objektif">L\'OBJECTIF</string>
-    <string name="materiel">MATÉRIEL</string>
-    <string name="materiel_1">MATÉRIEL 1</string>
-    <string name="materiel_2">MATÉRIEL 2</string>
-    <string name="materiel_3">MATÉRIEL 3</string>
-    <string name="introduction">INTRODUCTION</string>
-    <string name="l_introduction"><![CDATA[ <p style="
-        text-align:justify;line-height:115%"><span style="font-size:12.0pt;
-        line-height:115%">Berisi
-        petunjuk penggunaan media</span></p>
+    <string name="objektif">Objectif</string>
+    <string name="materiel">Matière</string>
+    <string name="materiel_1">Matière 1</string>
+    <string name="materiel_2">Matière 2</string>
+    <string name="materiel_3">Matière 3</string>
+    <string name="introduction">Introduction</string>
+    <string name="l_materiel"><![CDATA[ <p style="
+text-align:justify;text-justify:inter-ideograph;line-height:115%" __rte_selected_block=""><span style="font-size:12.0pt;line-height:115%">Berisi materi
+pembelajaran mengenai </span><i><span style="font-size:12.0pt;line-height:115%">des choses et des lieux publics</span></i><span style="font-size:
+12.0pt;line-height:115%">, <i>décrire une personne et une chose</i>, dan <i>situer dans l’espace.</i></span></p>
 
-        <p style="line-height:115%"><span style="font-size: 12pt; line-height: 115%; font-weight: bold;"><b>1.
-        DES CHOSES ET DES LIEUX PUBLICS </b></span></p>
+<p style="text-align:justify;text-justify:inter-ideograph;line-height:115%"><span style="font-size: 12pt; line-height: 115%; font-weight: bold;">1. DES CHOSES ET DES
+LIEUX PUBLICS </span></p>
 
-        <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><p style="text-align:justify;line-height:115%"><span style="font-size:
-        12.0pt;line-height:115%">Des
-        choses et des lieux publics merupakan materi bahasa Prancis mengenai nama-nama
-        benda dan bangunan publik. Dengan materi ini kita akan mengetahui apa saja
-        nama-nama benda dan tempat umum dalam bahasa Prancis.</span></p></blockquote>
+<p style="text-align:justify;text-justify:inter-ideograph;line-height:115%"><span style="font-size:12.0pt;line-height:115%"><span style="font-style: italic;">Des choses et des lieux
+publics</span> merupakan materi bahasa Prancis mengenai nama-nama benda dan bangunan
+publik. Dengan materi ini kita akan mengetahui apa saja nama-nama benda dan
+tempat umum dalam bahasa Prancis.</span></p>
 
-        <p style="text-align:justify;line-height:115%"><span style="font-size: 12pt; line-height: 115%; font-weight: bold;"><b>2.
-        DÈCRIRE UNE PERSONNE ET UNE CHOSE </b></span></p>
+<p style="text-align:justify;text-justify:inter-ideograph;line-height:115%"><span style="font-size: 12pt; line-height: 115%; font-weight: bold;">2. DÈCRIRE UNE PERSONNE
+ET UNE CHOSE </span></p>
 
-        <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><p style="text-align:justify;line-height:115%"><span style="font-size:
-        12.0pt;line-height:115%">Décrire
-        une personne merupakan ungkapan untuk menggambarkan seseorang. Dalam
-        menggambarkan sesorang, kita dapat menggambarkannya melalui fisik maupun
-        karakter yang dimiliki. Sedangkan décrire une chose merupakan ungkapan untuk
-        menggambarkan suatu benda atau tempat. Untuk mendeskripsikannya kita dapat
-        menggambarkan melalui fisik (jumlah, warna, dll) yang dimiliki.</span></p></blockquote>
+<p style="text-align:justify;text-justify:inter-ideograph;line-height:115%"><span style="font-size:12.0pt;line-height:115%"><span style="font-style: italic;">Décrire une personne</span>
+merupakan ungkapan untuk menggambarkan seseorang. Dalam menggambarkan sesorang,
+kita dapat menggambarkannya melalui fisik maupun karakter yang dimiliki.
+Sedangkan <span style="font-style: italic;">décrire une chose</span> merupakan ungkapan untuk menggambarkan suatu benda
+atau tempat. Untuk mendeskripsikannya kita dapat menggambarkan melalui fisik
+(jumlah, warna, dll) yang dimiliki.</span></p>
 
-        <p style="text-align:justify;line-height:115%"><span style="font-size: 12pt; line-height: 115%; font-weight: bold;"><b>3.
-        SITUER DANS L’ESPACE</b></span></p>
+<p style="text-align:justify;text-justify:inter-ideograph;line-height:115%"><span style="font-size: 12pt; line-height: 115%; font-weight: bold;">3. SITUER DANS L’ESPACE</span></p>
 
-        <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;" __rte_selected_block=""><p style="
-        text-align:justify;line-height:115%"><span style="font-size:12.0pt;
-        line-height:115%">Situer
-        dans l’espace merupakan materi mengenai posisi suatu benda atau tempat. Untuk
-        menyatakan<span>&nbsp; </span>letak suatu benda maupun
-        tempat, tentu saja kita dapat menggunakan materi ini.</span></p></blockquote>]]>
+<p style="
+text-align:justify;text-justify:inter-ideograph;line-height:115%"><span style="font-size:12.0pt;line-height:115%"><span style="font-style: italic;">Situer dans l’espace</span>
+merupakan materi mengenai posisi suatu benda atau tempat. Untuk menyatakan
+letak suatu benda maupun tempat, tentu saja kita dapat menggunakan materi ini.</span></p>]]>
 </string>
-    <string name="l_objek">Berisi tujuan pembelajaran-pembelajaran</string>
-    <string name="l_materiel">Berisi materi pembelajaran dan latihan soal mengenai des choses et des lieux publics, décrire une personne et une chose, dan situer dans l’espace.</string>
-    <string name="competence1">Siswa dapat menyebutkan nama benda dan bangunan publik (des choses et des lieux publics).</string>
-    <string name="competence2">Siswa dapat menggunakan tindak tutur mendeskripsikan seseorang dan benda (décrire une personne et une chose).</string>
-    <string name="competence3">Siswa mampu menggunakan tindak tutur menyebutkan letak suatu benda (situer dans l’espace).</string>
+    <string name="l_objek">Berisi tujuan-tujuan pembelajaran</string>
+    <string name="l_introduction"><![CDATA[<p style="
+        text-align:justify;text-justify:inter-ideograph;line-height:115%"><span style="font-size:12.0pt;line-height:115%">Berisi petunjuk
+        penggunaan media</span></p>
+
+        <p style="text-align:justify;text-justify:inter-ideograph;line-height:115%"><ul><li>
+        <span style="line-height: 115%; font-size: 16px;">
+        Pilih menu introduction untuk mengetahui petunjuk penggunaan media.</span></li><li>
+        <span style="font-size: 16px;">
+            Pilih menu Objectif untuk mengetahui apa saja tujuan pembelajaran.
+        </span></li><li>
+        <span style="font-size: 16px;">
+            Kemudian pilih menu Matière yang berisi teks, kosakata, dan quiz untuk dikerjakan.
+        </span></li></ul></p></string>]]></string>
+    <string name="competence1"><![CDATA[Siswa dapat menyebutkan nama benda dan bangunan publik <i>(des choses et des lieux publics).</i>]]></string>
+    <string name="competence2"><![CDATA[Siswa dapat menggunakan tindak tutur mendeskripsikan seseorang dan benda <i>(décrire une personne et une chose).</i>]]></string>
+    <string name="competence3"><![CDATA[Siswa mampu menggunakan tindak tutur menyebutkan letak suatu benda <i>(situer dans l’espace).</i>]]></string>
     <string name="materiel1">DES CHOSES ET DES LIEUX PUBLICS</string>
     <string name="materiel2">DÈCRIRE UNE PERSONNE ET UNE CHOSE</string>
     <string name="materiel3">SITUER DANS L’ESPACE</string>
-    <string name="laura">Laura</string>
+    <string name="paul">Paul</string>
     <string name="catherine">Catherine</string>
     <string name="le_texte">LE TEXTE</string>
-    <string name="les_vocabulaires">LES VOCABULAIRES</string>
+    <string name="les_vocabulaires">LES VOCABULAIRE</string>
     <string name="quiz">QUIZ</string>
+    <string name="introduction_kecil">Introduction</string>
+    <string name="laura">Laura</string>
 </resources>

@@ -4,7 +4,7 @@
     <item
         android:drawable="@drawable/roti"
         android:width="230dp"
-        android:height="200dp"
+        android:height="220dp"
         android:right="10dp"/>
 
 </layer-list >

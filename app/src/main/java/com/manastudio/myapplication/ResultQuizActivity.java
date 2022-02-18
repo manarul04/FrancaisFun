@@ -1,4 +1,4 @@
-package com.manastudio.myapplication.materi1;
+package com.manastudio.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -62,8 +62,8 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:layout_marginHorizontal="16dp"
-                    android:text="L'introduction"
-                    android:textSize="18dp"
+                    android:text="@string/introduction_kecil"
+                    android:textSize="18sp"
                     android:fontFamily="@font/poppins_bold"/>
                 <ImageView
                     android:id="@+id/arrowLintro"
@@ -127,7 +127,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:layout_marginHorizontal="16dp"
-                    android:text="L'objectif"
+                    android:text="Objectif"
                     android:textSize="18dp"
                     android:fontFamily="@font/poppins_bold"/>
                 <ImageView
@@ -192,7 +192,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:layout_marginHorizontal="16dp"
-                    android:text="Le Matériel"
+                    android:text="Matiére"
                     android:textSize="18dp"
                     android:fontFamily="@font/poppins_bold"/>
                 <ImageView

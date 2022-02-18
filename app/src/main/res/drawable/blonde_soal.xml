@@ -2,9 +2,9 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:drawable="@drawable/supermarket"
-        android:width="230dp"
-        android:height="160dp"
+        android:drawable="@drawable/blonde"
+        android:width="210dp"
+        android:height="200dp"
         android:right="10dp"/>
 
 </layer-list >

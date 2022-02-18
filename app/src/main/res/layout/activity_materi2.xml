@@ -1,9 +1,592 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".materi2.Materi2Activity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_primary_ligth"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingVertical="17dp"
+                android:text="@string/materiel2"
+                android:textAlignment="center"
+                android:textColor="@color/primary"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/bg_red_ligth"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="5dp"
+                android:text="@string/le_texte"
+                android:textColor="@color/red" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/materi2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Qui est Laura ?" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/catherine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Bonjour Paul, comment vas-tu ?" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/paul" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Ça va mieux. Au fait, tu vas au supermarché avec qui ?" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/catherine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="J'y vais avec Laura" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/paul" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Laura ?" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/catherine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Oui, c'est mon ami. Elle est belle, elle a le nez pointu. Elle est grande et mince.Elle a les cheveux blonds. Elle a les yeux bleus et ronds." />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/paul" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Ah oui. C'est une belle fille." />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/catherine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Laura est aussi gentille et généreuse. C'est un travailleur acharné, c'est pourquoi elle devenir riche." />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/paul" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Parfait, où est-elle maintenant ?" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/catherine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Actuellement, elle vit dans l'appartement avec moi." />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/bg_red_ligth"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="5dp"
+                android:text="@string/les_vocabulaires"
+                android:textColor="@color/red" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp">
+                <!--Perancis-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab1"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab2"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Indo-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti1"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_arti2"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Perancis-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray" />
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab3"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                         />
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab4"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Indo-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti3"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_arti4"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray" />
+                <!--Perancis-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab5"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab6"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Indo-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti5"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:textColor="@color/primary_med"
+                        
+                        android:fontFamily="@font/poppins_regular"/>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti6"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_med"
+                        
+                        android:fontFamily="@font/poppins_regular" />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray" />
+                <!--Perancis-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab7"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab8"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Indo-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti7"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:textColor="@color/primary_med"
+                        
+                        android:fontFamily="@font/poppins_regular"/>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti8"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_med"
+                        
+                        android:fontFamily="@font/poppins_regular" />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray" />
+                <!--Perancis-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab9"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab10"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Indo-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti9"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:textColor="@color/primary_med"
+                        
+                        android:fontFamily="@font/poppins_regular"/>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti10"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_med"
+                        
+                        android:fontFamily="@font/poppins_regular" />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray" />
+                <!--Perancis-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab11"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab12"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Indo-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti11"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular"/>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti12"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular" />
+                </TableRow>
+            </TableLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/bg_red_ligth"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="5dp"
+                android:text="@string/quiz"
+                android:textColor="@color/red" />
+
+            <Button
+                android:id="@+id/btnQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_primary_grad"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Quiz"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

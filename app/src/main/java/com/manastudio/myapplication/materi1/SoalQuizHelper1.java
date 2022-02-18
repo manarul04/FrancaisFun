@@ -5,12 +5,12 @@ public class SoalQuizHelper1 {
         "Qu'est-ce que ç'est ?",//1
         "Où est l'image du sac ?",//2
         "Catherine n'aime pas le modèle de ses chaussures. Où est l'image de ses chaussures ?",//3
-        "C’est la nourriture que va acheter de Catherine . Qu'est-ce que ç'est ?",//4
-        "Quelle nourriture que va acheter de Catherine ?",//5
-        "C'est quel fruit ?",//6
-        "C'est une boisson pour Paul. Qu'est-ce que ç'est ?",//7
+        "Catherine va acheter cette nourriture. Qu'est-ce que ç'est ?",//4
+        "Catherine va acheter cette nourriture. Qu'est-ce que ç'est ?",//5
+        "Paul aime ce fruit. Quel le nom de ce fruit ?",//6
+        "Catherine achète cette boisson pour Paul. Qu'est-ce que ç'est ?",//7
         "Qu'est-ce que ç'est ?",//8
-        "Synonymes du mot \n \"chez lui\"",//9
+        "Paul est malade et il est soigner à chez lui. Synonymes du mot \"chez lui\"",//9
         "Laura et Catherine font leurs courses …"//10
 };
 
@@ -18,9 +18,9 @@ public class SoalQuizHelper1 {
                 {"La robe", "Le pantalon", "Les chaussures"},//1
                 {"A","B","C"},//2
                 {"A", "B", "C"},//3
-                {"Du sucre", "Du pain", "Du Chocolat"},//4
-                {"Des fruits", "Du sucre", "Du chocolat"},//5
-                {"Des vins", "Un avocat", "Une pomme"},//6
+                {"Le sucre", "Le pain", "Le Chocolat"},//4
+                {"Des fruits", "Le sucre", "Le chocolat"},//5
+                {"Un raisin", "Un avocat", "Une pomme"},//6
                 {"De la bière", "De l’eau", "Du lait"},//7
                 {"L’aéroport", "L’hôpital", "La gare"},//8
                 {"Sa maison", "L’aéroport", "L’hôpital"},//9
@@ -32,7 +32,7 @@ public class SoalQuizHelper1 {
                 "La robe",//1
                 "A",//2
                 "C",//3
-                "Du pain",//4
+                "Le pain",//4
                 "Des fruits",//5
                 "Une pomme",//6
                 "Du lait",//7

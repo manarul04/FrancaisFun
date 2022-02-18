@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:padding="16dp"
     android:background="@drawable/bg_red_ligth"
     android:id="@+id/slidelinearlayout">
 

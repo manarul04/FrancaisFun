@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.manastudio.myapplication">
+    package="com.manastudio.myapplication" >
 
     <application
         android:allowBackup="true"
@@ -8,44 +8,55 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FrancaisFun">
-        <activity
-            android:name=".materi1.ResultQuizActivity"
-            android:exported="false" />
+        android:theme="@style/Theme.FrancaisFun" >
+        <!--Materi1-->
         <activity
             android:name=".materi1.QuizMateri1Activity"
-            android:theme="@style/Theme.FrancaisFun.ActionBar"
-            android:exported="false" />
-        <activity
-            android:name=".materi3.Materi3Activity"
-            android:theme="@style/Theme.FrancaisFun.ActionBar"
-            android:exported="false" />
-        <activity
-            android:name=".materi2.Materi2Activity"
-            android:theme="@style/Theme.FrancaisFun.ActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar" />
         <activity
             android:name=".materi1.Materi1Activity"
-            android:theme="@style/Theme.FrancaisFun.ActionBar"
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar" />
+        <!--Materi2-->
+        <activity
+            android:name=".materi2.QuizMateri2Activity"
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar"/>
+        <activity
+            android:name=".materi2.Materi2Activity"
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar" />
+        <!--Materi3-->
+        <activity
+            android:name=".materi3.QuizMateri3Activity"
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar" />
+        <activity
+            android:name=".materi3.Materi3Activity"
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar" />
+        <activity
+            android:name=".ResultQuizActivity"
             android:exported="false" />
         <activity
             android:name=".MaterielActivity"
-            android:theme="@style/Theme.FrancaisFun.ActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar" />
         <activity
             android:name=".ObjektifActivity"
-            android:theme="@style/Theme.FrancaisFun.ActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar" />
         <activity
             android:name=".IntroductionActivity"
-            android:theme="@style/Theme.FrancaisFun.ActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.FrancaisFun.ActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

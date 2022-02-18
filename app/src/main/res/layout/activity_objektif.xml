@@ -63,6 +63,7 @@
                         app:tint="@color/red" />
 
                     <TextView
+                        android:id="@+id/tvObejek1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="6dp"
@@ -94,6 +95,7 @@
                         app:tint="@color/red" />
 
                     <TextView
+                        android:id="@+id/tvObejek2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="6dp"
@@ -125,6 +127,7 @@
                         app:tint="@color/red" />
 
                     <TextView
+                        android:id="@+id/tvObejek3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="6dp"

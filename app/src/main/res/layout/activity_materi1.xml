@@ -82,8 +82,7 @@
                     android:fontFamily="@font/poppins_regular"
                     android:text="Cette robe est trop jolie" />
             </TableRow>
-
-            <TableRow>
+           <TableRow>
 
                 <TextView
                     android:layout_width="80dp"
@@ -246,7 +245,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="C'est pour Paul, il est malade." />
+                    android:text="C'est pour laura, il est malade." />
             </TableRow>
 
             <TableRow>
