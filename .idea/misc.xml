@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/airport_opsi.xml" value="0.36666666666666664" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/apel_soal.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/appartement_soal.xml" value="0.11018518518518519" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_btn.xml" value="0.3828125" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_half_white.xml" value="0.3828125" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_primary_grad.xml" value="0.3828125" />
@@ -11,6 +13,7 @@
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/bg_red_ligth.xml" value="0.2483108108108108" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/blonde_soal.xml" value="0.34629629629629627" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/buah_soal.xml" value="0.3828125" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/cinema_opsi.xml" value="0.36666666666666664" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/gaun_opsi.xml" value="0.22135416666666666" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/gaun_small.xml" value="0.22135416666666666" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/hidung_soal.xml" value="0.1" />
@@ -25,9 +28,12 @@
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/kamar_soal.xml" value="0.2101851851851852" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/kaya_soal.xml" value="0.3175925925925926" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/mata_soal.xml" value="0.3175925925925926" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/post_opsi.xml" value="0.36666666666666664" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/roti_soal.xml" value="0.22135416666666666" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/rumah_opsi.xml" value="0.36666666666666664" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/sepatu_opsi.xml" value="0.22135416666666666" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/slim_soal.xml" value="0.1" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/station_opsi.xml" value="0.36666666666666664" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/supermarket_soal.xml" value="0.3828125" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/susu_soal.xml" value="0.3828125" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/drawable/tas_opsi.xml" value="0.22135416666666666" />
@@ -36,7 +42,7 @@
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_materi1.xml" value="0.33" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_materi2.xml" value="0.33" />
-        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_materi3.xml" value="0.1" />
+        <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_materi3.xml" value="0.33" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_materiel.xml" value="0.2287162162162162" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_objektif.xml" value="0.36666666666666664" />
         <entry key="..\:/#PROJECT/Android/FrancaisFun/app/src/main/res/layout/activity_quiz_materi1.xml" value="0.25" />

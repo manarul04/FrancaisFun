@@ -5,13 +5,13 @@ public class SoalQuizHelper2 {
         "Qui est Laure ?",//1
         "Laura est …",//2
         "De quelle couleur sont les cheveux de Laura ?",//3
-        "Laura est …",//4
+        "Laura a le nez …",//4
         "Laura est …",//5
         "De quelle couleur sont les yeux de Laura ?",//6
         "Laure est gentille. Quel est l’anonyme de “gentille” ?",//7
-        "Laura est généreuse. Le synonyme de “généreuse ” est ...",//8
-        "Laura est …",//9
-        "Quel est l'antonyme de “riche”?"//10
+        "Où habitent Catherine et Laura ? ",//8
+        "L'appartement de Catherine et Laura est sympa. L’anonyme du mot \"sympa\" est...",//9
+        "L'appartement de Catherine et Laura est cher. Le synonyme du mot \"cher\" est..."//10
 };
 
         private String[][] mChoices = {
@@ -22,9 +22,9 @@ public class SoalQuizHelper2 {
                 {"Petite", "Mince", "Vieille"},//5
                 {"Blanches", "Rouges", "Bleus"},//6
                 {"Méchant", "Timide", "Intelligent "},//7
-                {"Intelligent", "Philanthrope", "Timide"},//8
-                {"Riche", "Méchant", "L’hôpital"},//9
-                {"Egoïste", "Patient ", "Pauvre"}//10
+                {"Dans le bureau ", "À la maison  ", "Dans l’appartement"},//8
+                {"Agréable", "Laid", "Sale"},//9
+                {"Sale", "Coûteux", "Nettoyer "}//10
         };
 
 
@@ -36,9 +36,9 @@ public class SoalQuizHelper2 {
                 "Mince",//5
                 "Bleus",//6
                 "Méchant",//7
-                "Philanthrope",//8
-                "Riche",//9
-                "Pauvre"//10
+                "Dans l’appartement",//8
+                "Laid",//9
+                "Coûteux"//10
 
         };
 

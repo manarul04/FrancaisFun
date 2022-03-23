@@ -81,7 +81,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Choisissez correctement la réponse ci-dessous !"
+                android:text="Choisissez la bonne réponse!"
                 android:textColor="@color/white"
                 android:fontFamily="@font/poppins_bold"
                 android:layout_marginBottom="8dp"
@@ -90,7 +90,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="(Pilihlah jawaban dibawah ini dengan benar!)"
+                android:text="(Pilihlah jawaban yang tepat!)"
                 android:textColor="@color/merah_2"
                 android:fontFamily="@font/poppins_bold"
                 android:layout_marginBottom="8dp"

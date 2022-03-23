@@ -2,9 +2,9 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:drawable="@drawable/materi3"
-        android:width="320dp"
-        android:height="210dp"
+        android:drawable="@drawable/appartement"
+        android:width="250dp"
+        android:height="160dp"
         android:right="10dp"/>
 
 </layer-list >

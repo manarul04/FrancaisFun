@@ -315,7 +315,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Où est la maison ?" />
+                    android:text="Où se trouve sa maison ?" />
             </TableRow>
 
             <TableRow>

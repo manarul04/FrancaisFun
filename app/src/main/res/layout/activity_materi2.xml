@@ -222,7 +222,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Laura est aussi gentille et généreuse. C'est un travailleur acharné, c'est pourquoi elle devenir riche." />
+                        android:text="Laura est aussi gentille et généreuse. C'est un travailleur acharné, c'est pourquoi elle devient riche" />
                 </TableRow>
 
                 <TableRow>
@@ -245,7 +245,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Parfait, où est-elle maintenant ?" />
+                        android:text="Parfait, tu as l’amie à la fois très belle et gentille. Elle est comme toi. Alors, où   habite-t-elle ?" />
                 </TableRow>
 
                 <TableRow>
@@ -269,7 +269,101 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Actuellement, elle vit dans l'appartement avec moi." />
+                        android:text="Actuellement, nous habitons dans le même appartement." />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/paul" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Quel appartement ?" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/catherine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Mon nouvel appartement, en face du Hola Supermarché."/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/paul" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Oh la-la, c'est l'appartement sympa et cher." />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/catherine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text=": " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Oui, les chambres sont confortables et les équipements sont très complets." />
                 </TableRow>
 
             </TableLayout>
@@ -557,6 +651,98 @@
                         android:layout_marginHorizontal="6dp"
                         android:layout_weight="1"
                         
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular" />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray" />
+                <!--Perancis-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab13"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab14"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Indo-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti13"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular"/>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti14"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular" />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray" />
+                <!--Perancis-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab15"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                    <TextView
+                        android:id="@+id/tvMateri2_vocab16"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        />
+                </TableRow>
+                <!--Indo-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti15"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+
+                        android:textColor="@color/primary_med"
+                        android:fontFamily="@font/poppins_regular"/>
+                    <TextView
+                        android:id="@+id/tvMateri2_arti16"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+
                         android:layout_height="wrap_content"
                         android:textColor="@color/primary_med"
                         android:fontFamily="@font/poppins_regular" />

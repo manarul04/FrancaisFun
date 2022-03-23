@@ -80,7 +80,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Bonjour Laura, savez-vous où est mon livre ?" />
+                        android:text="Bonjour Laura, tu sais où est mon livre ?" />
                 </TableRow>
 
                 <TableRow>
@@ -151,7 +151,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Essayez de regarder sur la table" />
+                        android:text="Essaies de regarder sur la table" />
                 </TableRow>
 
                 <TableRow>
@@ -175,7 +175,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Pas ici, où le mets-tu ?" />
+                        android:text="Pas ici" />
                 </TableRow>
 
                 <TableRow>
@@ -198,7 +198,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Je le mets dans le placard. Regardez derrière l'ordinateur." />
+                        android:text="Regardez derrière l'ordinateur." />
                 </TableRow>
 
                 <TableRow>
@@ -245,7 +245,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Sous le lit, à droite de la chaise ?" />
+                        android:text="Sur le lit, près de la fenêtre ?" />
                 </TableRow>
 
                 <TableRow>
@@ -269,7 +269,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Il n'y a que mon sac." />
+                        android:text="Il n'y a que ma poupée." />
                 </TableRow>
                 <TableRow>
 

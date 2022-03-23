@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/airport"
+        android:width="200dp"
+        android:height="120dp"
+        android:right="10dp"
+        android:left="100dp"/>
+
+</layer-list >

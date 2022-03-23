@@ -105,16 +105,34 @@ public class QuizMateri1Activity extends AppCompatActivity implements View.OnCli
                     ivQuestion.setImageResource(R.drawable.buah_soal);
                     break;
                 case 6:
-                    ivQuestion.setImageResource(R.drawable.apel_soal);
-                    break;
-                case 7:
-                    ivQuestion.setImageResource(R.drawable.susu_soal);
+                    ivQuestion.setImageResource(R.drawable.hospital_soal);
                     break;
                 case 8:
-                    ivQuestion.setImageResource(R.drawable.hospital_soal);
+                    ivQuestion.setImageResource(0);
+                    btn_a.setTextColor(Color.argb(0,0,0,0));
+                    btn_b.setTextColor(Color.argb(0,0,0,0));
+                    btn_c.setTextColor(Color.argb(0,0,0,0));
+                    btn_a.setBackgroundResource(R.drawable.cinema_opsi);
+                    btn_b.setBackgroundResource(R.drawable.station_opsi);
+                    btn_c.setBackgroundResource(R.drawable.rumah_opsi);
+                    break;
+                case 9:
+                    ivQuestion.setImageResource(0);
+                    btn_a.setTextColor(Color.argb(0,0,0,0));
+                    btn_b.setTextColor(Color.argb(0,0,0,0));
+                    btn_c.setTextColor(Color.argb(0,0,0,0));
+                    btn_a.setBackgroundResource(R.drawable.airport_opsi);
+                    btn_b.setBackgroundResource(R.drawable.cinema_opsi);
+                    btn_c.setBackgroundResource(R.drawable.post_opsi);
                     break;
                 case 10:
                     ivQuestion.setImageResource(R.drawable.supermarket_soal);
+                    btn_a.setBackgroundResource(R.color.primary_light);
+                    btn_b.setBackgroundResource(R.color.primary_light);
+                    btn_c.setBackgroundResource(R.color.primary_light);
+                    btn_a.setTextColor(Color.rgb(70,100,140));
+                    btn_b.setTextColor(Color.rgb(70,100,140));
+                    btn_c.setTextColor(Color.rgb(70,100,140));
                     break;
 
                 default: ivQuestion.setImageResource(0);

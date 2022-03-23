@@ -86,9 +86,6 @@ public class QuizMateri2Activity extends AppCompatActivity implements View.OnCli
                 case 6:
                     ivQuestion.setImageResource(R.drawable.mata_soal);
                     break;
-                case 9:
-                    ivQuestion.setImageResource(R.drawable.kaya_soal);
-                    break;
 
                 default: ivQuestion.setImageResource(0);
                     btn_a.setBackgroundResource(R.color.primary_light);

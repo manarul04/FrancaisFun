@@ -122,6 +122,34 @@ public class Materi2Activity extends AppCompatActivity {
         tvArti12= findViewById(R.id.tvMateri2_arti12);
         Spanned si12 = Html.fromHtml("<i>Dia <b>jahat</b> dan <b>pelit</b></i>");
         tvArti12.setText(si12);
+
+        TextView tvVocab13= findViewById(R.id.tvMateri2_vocab13);
+        Spanned sp13 = Html.fromHtml("L'appartement est <b>sympa</b> et <b>cher</b>");
+        tvVocab13.setText(sp13);
+        TextView tvArti13= findViewById(R.id.tvMateri2_arti13);
+        Spanned si13 = Html.fromHtml("<i>Apartemennya <b>bagus</b> dan <b>mahal</b></i>");
+        tvArti13.setText(si13);
+
+        TextView tvVocab14= findViewById(R.id.tvMateri2_vocab14);
+        Spanned sp14 = Html.fromHtml("L'appartement est <b>laid</b> et <b>pas cher</b>");
+        tvVocab14.setText(sp14);
+        TextView tvArti14= findViewById(R.id.tvMateri2_arti14);
+        Spanned si14 = Html.fromHtml("<i>Apartemennya <b>jelek</b> dan <b>murah</b></i>");
+        tvArti14.setText(si14);
+
+        TextView tvVocab15= findViewById(R.id.tvMateri2_vocab15);
+        Spanned sp15 = Html.fromHtml("L'appartement est <b>confortable<b>");
+        tvVocab15.setText(sp15);
+        TextView tvArti15= findViewById(R.id.tvMateri2_arti15);
+        Spanned si15 = Html.fromHtml("<i>Apartemennya <b>nyaman</b></i>");
+        tvArti15.setText(si15);
+
+        TextView tvVocab16= findViewById(R.id.tvMateri2_vocab16);
+        Spanned sp16 = Html.fromHtml("L'appartement est <b>désagréable<b>");
+        tvVocab16.setText(sp16);
+        TextView tvArti16= findViewById(R.id.tvMateri2_arti16);
+        Spanned si16 = Html.fromHtml("<i>Apartemennya <b>tidak nyaman</b></i>");
+        tvArti16.setText(si16);
     }
 
     @Override
